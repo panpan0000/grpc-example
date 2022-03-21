@@ -8,6 +8,12 @@
 
 3.`make gen-proto` to generate go file from pb file
 
+  ``` 
+  --go_out=       生成 *.pb.go， 是序列化和反序列化的代码
+   --go-grpc_out=      生成 *_grpc.pb.go，是GRPC通讯的代码
+   ```
+   
+
 4. `make run-server`
 
 5. `make run-client`
